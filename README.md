@@ -19,7 +19,7 @@ The FPS speed on Amiga 1200 with V1200 card in 320x200 was 30-40 average.
 You can find there many interesting things, examples and ideas if you are interested in
 Amiga RTG coding, raycasting coding, ReAction GUI windows, etc.
 
-The latest msDevPack 3.2 have some interesting features:
+The latest msDevPack 0.32 have some interesting features:
 - textured walls/floors/ceilings
 - mipmaps from 256x256px to 4x4px
 - baked lightmaps
