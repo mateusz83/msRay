@@ -23,12 +23,15 @@ that would be able to run in decent FPS.
 You can find there many interesting things, examples and ideas if you are interested in
 Amiga RTG coding, raycasting coding, raycasting algorithms, ReAction GUI windows, etc.
 
-The features of msRay_devpack_v0.32:
+History log, progress and features:
+
+msRay_devpack_v0.32:
 - textured walls/floors/ceilings
 - mipmaps from 256x256px to 4x4px
 - baked lightmaps
 - distance shading
 - glowing pixels
+
 
 Check out the playlist of YT videos for details and progress:
 https://www.youtube.com/playlist?list=PLXyg79wsI88GWKknk59lt5cFlR7HUVYR7
