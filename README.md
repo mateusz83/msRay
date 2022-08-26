@@ -36,7 +36,7 @@ Amiga RTG coding, raycasting coding, raycasting algorithms, ReAction GUI windows
 
 *msRay_devpack_v0.33:*
 - textured walls/floors/ceilings
-- new, faster floor/ceiling rendering algorithm
+- new, faster floor/ceiling rendering algorithm (that uses screen projection and Sutherland-Hodgman polygon clipping)
 - mipmaps from 256x256 px to 32x32 px
 - baked lightmaps
 - distance shading
