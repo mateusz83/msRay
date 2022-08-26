@@ -2,10 +2,16 @@
 
 PROJECT OVERVIEW
 
-This is my AMIGA/WINDOWS Raycaster project. 
-The main engine files written in C without using any external libraries, so
-the engine is OS independent. It can be easly adapted to OS
-that uses 32 bit RGBA buffer rendering.
+This is my AMIGA / WINDOWS Raycaster project. 
+The main engine files written in C without using any external libraries, so the engine is OS independent. It can be easly adapted to OS that uses 32 bit RGBA buffer rendering.
+
+**Please note**, that at the beginning the project was based on great [Lode Vandevenne raycasting tutorial.](https://lodev.org/cgtutor/index.html "Lode Vandevenne raycasting tutorial") If You are interested in raycasting, you should take a look on this tutorial. It is well explained and also contains sources in C.
+
+As my project evolved, I added many optimalizations and tested different ways to render floor and ceiling trying to get as much performance I could. If you wish to understand my code its suggested that you take a look at  [Lode Vandevenne raycasting tutorial.](https://lodev.org/cgtutor/index.html "Lode Vandevenne raycasting tutorial") first.
+
+------------
+
+
 
 The devpacks contains:
 - engine source files in C
@@ -23,14 +29,29 @@ that would be able to run in decent FPS.
 You can find there many interesting things, examples and ideas if you are interested in
 Amiga RTG coding, raycasting coding, raycasting algorithms, ReAction GUI windows, etc.
 
-History log, progress and features:
+------------
 
-msRay_devpack_v0.32:
+
+**History log, progress and features**
+
+*msRay_devpack_v0.33:*
 - textured walls/floors/ceilings
-- mipmaps from 256x256px to 4x4px
+- new, faster floor/ceiling rendering algorithm
+- mipmaps from 256x256 px to 32x32 px
 - baked lightmaps
 - distance shading
 - glowing pixels
+
+*msRay_devpack_v0.32:*
+- textured walls/floors/ceilings
+- mipmaps from 256x256 px to 4x4 px
+- baked lightmaps
+- distance shading
+- glowing pixels
+
+
+------------
+
 
 
 Check out the playlist of YT videos for details and progress:
