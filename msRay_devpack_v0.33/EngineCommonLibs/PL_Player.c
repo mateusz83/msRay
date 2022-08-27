@@ -17,7 +17,7 @@ void PL_Player_Init(void)
     }
 
     // Set pitch speed.
-    #if defined WIN32
+    #if defined _WIN32
         PL_player.pitch_speed = ((float32)IO_prefs.screen_height * 1.5f);
     #elif defined AMIGA
         PL_player.pitch_speed = ((float32)IO_prefs.screen_height * 1.5f) / 10.0f;
