@@ -48,7 +48,7 @@ Other:
 - only Amiga Framework C sources changed. Adapted to use chunky to planar ham8 convertion routines
 
 *msRay_devpack_v0.34:*
-- the previous floor/ceiling rendering algorithm has been corrected and is faster. The lists of potentially visible cells are no longer created in editor and stored in level file, but created "on fly" during wall casting. Thanks to that the list are shorter and ther is less flats overdrawn by walls. Additionally the horizontal pixels are doubled - no big difference in quality but more performance.
+- the previous floor/ceiling rendering algorithm has been corrected and is faster. The lists of potentially visible cells are no longer created in editor and stored in level file, but created "on fly" during wall casting. Thanks to that the list are shorter and ther is less flats overdrawn by walls. Additionally the horizontal pixels are doubled - no big difference in quality but more performance. For every visible cell that has floor and ceiling - the floor tile is rendered first, then the ceiling tile.
 - memory usage reduction
 - updated editor
 - textured walls/floors/ceilings
@@ -58,14 +58,15 @@ Other:
 - glowing pixels
 
 *msRay_devpack_v0.33:*
+- new, faster floor/ceiling rendering algorithm. It is based on potentially visible cell lists that are pre-generated in editor and saved to leve file. The flats are rendered first then the walls are rendered. The algorithm uses screen projection and Sutherland-Hodgman polygon clipping. For every visible cell that has floor and ceiling - the floor tile is rendered first, then the ceiling tile.
 - textured walls/floors/ceilings
-- new, faster floor/ceiling rendering algorithm (that uses screen projection and Sutherland-Hodgman polygon clipping)
 - mipmaps from 256x256 px to 32x32 px
 - baked lightmaps
 - distance shading
 - glowing pixels
 
 *msRay_devpack_v0.32:*
+- textured during the walls raycasting the information about empty horizontal spans are gathered. They are used to render floors and ceilings. For every visible cell that has floor and ceiling - the floor tile is rendered first, then the ceiling tile.
 - textured walls/floors/ceilings
 - mipmaps from 256x256 px to 4x4 px
 - baked lightmaps
