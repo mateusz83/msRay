@@ -30,6 +30,7 @@ The other tests:
  - But during the tests also the **8 bit** version was made and was converted to **Amiga AGA** native display chip thanks to "chunky to planar" conversions: https://youtu.be/keYe7AltI4w
  - Also, in another test the full 32bit ARGB render was converted into **Amiga AGA HAM8** mode,
 that was able to display over 10k colors: https://youtu.be/SwnDqj8pNe4
+- for "chunky to planar" conversions I used kalms-c2p routines collection: https://github.com/Kalmalyzer/kalms-c2p
 
 Other:
 
