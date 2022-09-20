@@ -67,7 +67,7 @@ Other:
 - glowing pixels
 
 *msRay_devpack_v0.32:*
-- textured during the walls raycasting the information about empty horizontal spans are gathered. They are used to render floors and ceilings. For every visible cell that has floor and ceiling - the floor tile is rendered first, then the ceiling tile.
+- during the walls raycasting the information about empty horizontal spans are gathered. They are used to render floors and ceilings. For every visible cell that has floor and ceiling - the floor tile is rendered first, then the ceiling tile.
 - textured walls/floors/ceilings
 - mipmaps from 256x256 px to 4x4 px
 - baked lightmaps
