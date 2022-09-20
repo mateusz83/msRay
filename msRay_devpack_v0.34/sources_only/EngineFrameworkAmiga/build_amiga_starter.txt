@@ -1,0 +1,17 @@
+m68k-amigaos-gcc
+		-Wall
+		-Wno-pointer-sign
+		-Wuninitialized
+		-noixemul
+		-O3
+		-m68020
+		-mtune=68020
+		
+		"src/AMIGA_Starter.c"
+		
+		-o
+
+		"../TheGameOutput/msRay-34_AMIGA.exe"
+
+		-lm
+          
