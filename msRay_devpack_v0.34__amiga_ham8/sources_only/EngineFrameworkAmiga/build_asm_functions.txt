@@ -1,0 +1,24 @@
+vasmm68k_mot
+		-no-opt
+		-devpac
+		-Fhunk
+		-m68040
+		
+		-o
+		
+		"src/c2p1x1_8_c5_040.o"
+
+		"src/c2p1x1_8_c5_040.s"
+
+
+vasmm68k_mot
+		-no-opt
+		-devpac
+		-Fhunk
+		-m68040
+		
+		-o
+		
+		"src/c2p_4rgb888_4rgb666h8_040.o"
+
+		"src/c2p_4rgb888_4rgb666h8_040.s"
