@@ -15,9 +15,9 @@ As my project evolved, I added many optimalizations and tested different ways to
 
 The devpacks contains:
 - engine source files in C
-- AMIGA OS framework for RTG
-- WINDOWS framework
-- level editor (Windows)
+- AMIGA OS framework for RTG (Visual Code project)
+- WINDOWS framework (MSVC2019 project)
+- level editor (Windows, MSVC2019 project)
 - executables for Amiga OS and Windows (with demo level)
 
 The goals:
