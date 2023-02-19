@@ -44,6 +44,11 @@ Other:
 
 **History log, progress and features**
 
+*msRay_devpack_v0.35:*
+- additional new geometry: different door types and walls that can have smaller height.
+- performance improvements
+- updated editor
+
 *msRay_devpack_v0.34__amiga_ham8:*
 - this is a test that takes v0.34 and its fully 32bit ARGB render output (at 320x256) and converts it "on fly" into Amiga 1200/400 AGA Ham8 mode, that is capable to display hundreds of thousands colors.
 - only Amiga Framework C sources changed. Adapted to use chunky to planar ham8 convertion routines
