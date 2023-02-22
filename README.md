@@ -22,7 +22,7 @@ The devpacks contains:
 
 The goals:
 
- - The project was mainly targeted to Amigas with **32-bit RTG** and faster CPUs, so "modernish" cards like V1200,  IceDrake, Firebird, Emu68, PIStrom, PiAmiga, Warp1260 etc. are recommended.
+ - The project was mainly targeted to Amigas with **32-bit RTG** and faster CPUs like m68060 or "modernish" cards like V1200, IceDrake, Firebird, Emu68, PIStrom, PiAmiga, Warp1260 etc.
  - One of the main goals was to create a fully 32 bit raycaster renderer, that would be able to run in decent FPS.
 
 The other tests:
@@ -46,6 +46,7 @@ Other:
 
 *msRay_devpack_v0.35:*
 - additional new geometry: different door types and walls that can have smaller height.
+- walls/doors collisions
 - performance improvements
 - updated editor
 
