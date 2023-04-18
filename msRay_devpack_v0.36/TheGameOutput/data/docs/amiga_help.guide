@@ -1,0 +1,87 @@
+@DATABASE
+
+@NODE MAIN "msRay (v0.36), Help."
+
+--------------------------------
+--- Welcome to msRay (v0.36) ---
+--------------------------------
+
+msRay is an advanced raycaster that includes:
+- free head movement by mouse moving
+- non regular walls
+- horizontal and vertical doors
+- walls/doors collisions
+- mip mapping walls and flats texturing (from 128px to 32px)
+- baked lighting
+- 'glowing pixels' (not affected by shadows)
+- info panel (auto scaled to screen width)
+- 32bit RTG and HAM8 output
+
+----------------------
+--- Requirements  ---
+----------------------
+
+The minimal requirements are:
+- CPU 040/060 or compatibile
+- AGA chipset for HAM8 mode (A1200, A4000) or compatibile
+
+The recommended requirements are:
+- fast CPU 060 or compatibile
+- RTG graphic board
+
+--------------------
+--- Display Mode ---
+--------------------
+
+There are 3 display modes supported.
+
+@{b}Fullscreen (32 bit)@{ub}
+This is the most recommended mode.
+To use it, you need hardware capable of displaying 32-bit
+graphics modes and the appropriate libraries installed:
+cybergraphics.library, rtg.library or their equivalents.
+The 32-bit graphics modes must available in the System. 
+The found modes will be displayed in the list.
+
+@{b}Fullscreen (HAM8)@{ub}
+If displaying 32 bit modes is not possible, you can use
+the HAM8 mode. This mode will use the native Amiga graphics
+chip (AGA) to display the graphics in fullscreen.
+
+This mode converts 32-bit graphics in real time to a format
+that can be displayed by native Amiga graphics chips.
+Due to the limitations of the native Amiga chips 
+and the additional CPU time required for conversion, 
+performance and graphics quality will be lower than 
+in 32 bit modes.
+
+--------------------
+--- Screen Aspect ---
+---------------------
+
+This option is only available in RTG 32 bit mode and helps
+you filter the available graphics modes to find the one you want.
+The most recommended one is @{b}Same as System@{ub}.
+
+--------------------
+--- Pixel Format ---
+--------------------
+
+This option is only available in RTG 32 bit mode
+and filters the available graphics modes by pixel format.
+And different hardware may support one or more different formats.
+
+The recommended mode is @{b}ARGB@{ub} for faster graphics loading.
+If available it will be automatically selected as preferred.
+
+------------------------
+--- Screen Buffering ---
+------------------------
+
+This option allows you to reduce the so-called "screen tearing"
+and "flickering" effects while playing.
+
+For RTG 32 bit mode the @{b}Triple@{ub} option is recommended.
+For HAM8 mode the @{b}Double (vsync)@{ub} option is recommended.
+
+@ENDNODE
