@@ -27,10 +27,10 @@ For this "chunky to planar" conversions I used kalms-c2p routines collection: ht
 
 **Results:**
 - Check out this YT playlist for videos of final results and progress: https://www.youtube.com/playlist?list=PLXyg79wsI88GWKknk59lt5cFlR7HUVYR7
-- Creating simple level with lightmaps: https://studio.youtube.com/video/q8jkLqvP4ZQ/edit
-- Windows/Amiga builds comparision: https://studio.youtube.com/video/iEUx0xVAae0/edit
-- HAM8 mode result: https://studio.youtube.com/video/wv3OYbADkJQ/edit
-- RTG result: https://studio.youtube.com/video/v5oOLcYEvoM/edit
+- Creating simple level with lightmaps: https://youtu.be/q8jkLqvP4ZQ
+- Windows/Amiga builds comparision: https://youtu.be/iEUx0xVAae0
+- HAM8 mode result: https://youtu.be/wv3OYbADkJQ
+- RTG result: https://youtu.be/v5oOLcYEvoM
 
 **Other:**
 - You can find here many interesting things, examples, source codes and ideas if you are interested in Amiga RTG coding, raycasting coding, raycasting algorithms, ReAction GUI windows, etc.
