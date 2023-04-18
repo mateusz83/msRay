@@ -1,0 +1,47 @@
+---- Amiga Starter ----
+
+
+m68k-amigaos-gcc
+
+-Wall -Wno-pointer-sign -Wuninitialized -noixemul -O3 -m68020 -mtune=68020     
+
+AMIGA_Starter.c           
+            
+-o
+
+TheGameOutput/msRay_v036_AMIGA.exe
+
+-lm
+
+
+---- Amiga Framework ----
+
+
+m68k-amigaos-gcc 
+
+-Wall -Wno-pointer-sign -Wuninitialized -noixemul -m68060 -mtune=68060 -O3 -fomit-frame-pointer
+
+c2p_4rgb888_4rgb666h8_040.o
+
+AMIGA_Framework.c
+BM_Bitmap.c
+BM_Bitmap_TGA.c            
+EN_Engine_Main.c
+GR_Flats.c
+GR_Game_Render.c
+GR_Info_Panel.c
+GR_Projection_Plane.c
+GR_Walls.c
+GR_Visible_Cells_List.c
+LV_Level.c
+MA_Math.c
+PL_Player.c
+TM_Timer.c
+
+-o
+
+TheGameOutput/data/frm060_v036.exe      
+
+TheGameOutput/data/asm_out.s      
+
+-lm       

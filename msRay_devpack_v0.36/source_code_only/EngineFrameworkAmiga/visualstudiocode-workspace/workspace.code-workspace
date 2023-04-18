@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../src"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"intuition.h": "c",
+			"dos.h": "c",
+			"cybergraphics.h": "c",
+			"exec.h": "c",
+			"reaction_macros.h": "c",
+			"stdlib.h": "c",
+			"exec_protos.h": "c",
+			"em_engine_main.h": "c",
+			"en_engine_main.h": "c",
+			"gadtools.h": "c",
+			"math.h": "c",
+			"window.h": "c"
+		}
+	}
+}
